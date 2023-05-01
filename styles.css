@@ -1,6 +1,24 @@
+/* ============= General styling starts here! ============? */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
+:root{
+    --white:hsl(0, 0%, 100%);
+    --black:hsl(0, 0%, 0%);
+    --gray:hsl(0, 0%, 55%);
+    --darkGray:  hsl(0, 0%, 41%);
+    --mainFont:'Alata', sans-serif;
+    --font: 'Josefin Sans', sans-serif ;
+}
+
+/* ============= Header styling starts here! ================ */
+header {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ============= Header styling ends here! ================ */
